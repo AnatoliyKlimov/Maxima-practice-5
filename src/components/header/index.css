@@ -1,0 +1,143 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  width: 100%;
+  display: flex;
+  height: 45px;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fafafa;
+  background-color: #000000;
+}
+
+.header__center {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header__center__link {
+  color: #fafafa;
+  font-weight: 700;
+}
+
+.header__center__language {
+  background-color: #000000;
+  border: none;
+  color: #fafafa;
+}
+
+.header__bot {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+  height: 40px;
+  border-bottom: 1px solid #d9dbe9;
+  padding-bottom: 20px;
+}
+
+.header__bot__exclusive {
+  font-family: Open Sans;
+  font-weight: 900;
+  text-shadow: 3px 3px 1px rgb(177, 167, 167);
+}
+
+.header__bot__navbar {
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  font-size: 20px;
+  color: black;
+}
+
+.header__bot__navbar__link {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.header__bot__navbar__link-active {
+  border-bottom: 1px solid #000000;
+}
+
+.header__bot__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header__bot__right__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__bot__right__search input {
+  border: none;
+  font-size: 14px;
+  width: 200px;
+}
+
+.header__bot__right__search img {
+  width: 24px;
+  height: 24px;
+  margin-left: -20px;
+}
+
+.header__bot__right__search img:hover {
+  cursor: pointer;
+}
+
+.header__bot__right__svg {
+  display: flex;
+  gap: 10px;
+}
+
+.header__bot__right__svg img {
+  height: 32px;
+  width: 32px;
+}
+
+.header__optional {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  gap: 100px;
+}
+
+.header__bot__right__svg img:hover {
+  cursor: pointer;
+}
+
+.header__optional__dropdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__optional__dropdown img {
+  margin-left: 100px;
+  transform: rotate(-90deg);
+}
+
+.header__optional__list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-top: 40px;
+  padding-right: 20px;
+  border-right: 1px solid #d9dbe9;
+}
+
+.header__optional__slieder{
+  padding-top: 40px;
+}
